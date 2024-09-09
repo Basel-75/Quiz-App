@@ -36,10 +36,10 @@ The purpose of this app is to apply a simple quiz to the user about Saudi Nation
 ### Running the App
 1. Clone the repository: 
    ```bash
-   git clone https://github.com/Basel-75/national-day-assignment.git
+   git clone https://github.com/Basel-75/Quiz-App.git
 2. Navigate to the project directory: 
    ```bash
-   cd national-day-assignment
+   cd Quiz-App
 
 3. Install dependencies: 
    ```bash
