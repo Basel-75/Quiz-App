@@ -1,102 +1,74 @@
-# National day Assignment 🇸🇦
+# Quiz App 💡❔️
 
-This assignment involves questions about saudi arabia, allow users to answers various questions.
+## Overview
 
-## Assignment Overview
+### Purpose
+The purpose of this app is to apply a simple quiz to the user about Saudi National Day. 🇸🇦
 
-- **Use get_it**: to get all the answers and questions, store the correct answers.
-- **Use GetStorage**: Save the level where you stopped, and continue the subsequent levels upon restarting the application.
+### Features
+- Display Question: Users can answer the question.
 
-## JSON Data Structure
-The questions & answers data is stored in a JSON format with the following structure:
-```
-final dataQ = [
-  {
-    "question": "What is the capital city of Saudi Arabia?",
-    "A": "Jeddah",
-    "B": "Riyadh",
-    "C": "Dammam",
-    "D": "Mecca",
-    "answer": "B"
-  },
-  {
-    "question": "In which year was Saudi Arabia founded?",
-    "A": "1902",
-    "B": "1912",
-    "C": "1932",
-    "D": "1952",
-    "answer": "C"
-  },
-  {
-    "question": "Which desert covers most of Saudi Arabia?",
-    "A": "Gobi Desert",
-    "B": "Sahara Desert",
-    "C": "Thar Desert",
-    "D": "Rub' al Khali (Empty Quarter)",
-    "answer": "D"
-  },
-  {
-    "question": "What is the official language of Saudi Arabia?",
-    "A": "Arabic",
-    "B": "Urdu",
-    "C": "English",
-    "D": "Turkish",
-    "answer": "A"
-  },
-  {
-    "question": "What is the currency of Saudi Arabia?",
-    "A": "Riyal",
-    "B": "Dinar",
-    "C": "Dirham",
-    "D": "Pound",
-    "answer": "A"
-  },
-  {
-    "question": "What is the main religion practiced in Saudi Arabia?",
-    "A": "Christianity",
-    "B": "Hinduism",
-    "C": "Islam",
-    "D": "Buddhism",
-    "answer": "C"
-  },
-  {
-    "question": "Which holy city in Saudi Arabia do millions of Muslims visit annually?",
-    "A": "Medina",
-    "B": "Jeddah",
-    "C": "Mecca",
-    "D": "Taif",
-    "answer": "C"
-  },
-  {
-    "question": "Saudi Arabia is known for being the world's largest exporter of what resource?",
-    "A": "Natural gas",
-    "B": "Coal",
-    "C": "Petroleum (Oil)",
-    "D": "Gold",
-    "answer": "C"
-  },
-  {
-    "question": "Which Saudi Arabian city is known as the 'Gateway to the Two Holy Mosques'?",
-    "A": "Jeddah",
-    "B": "Riyadh",
-    "C": "Medina",
-    "D": "Mecca",
-    "answer": "A"
-  },
-  {
-    "question": "Which body of water lies to the west of Saudi Arabia?",
-    "A": "Arabian Sea",
-    "B": "Red Sea",
-    "C": "Persian Gulf",
-    "D": "Mediterranean Sea",
-    "answer": "B"
-  }
-];
+- Check Question Answer: Users can know if they chose the wrong or correct answer.
 
-```
+- Local Storage: The app stores and updates the score and level locally.
 
-## Design in Figma: https://www.figma.com/design/hItzXF0WgTarpFiuXEVKkv/national-day---assignment?node-id=0-1&t=Es9eNrxjqfYE9TBv-1
+## Widgets & External Packages
 
-## Deadline
+### Main Widgets
+- **Container**: The `Container` widget is used to create a rectangular visual element. It can be customized with properties like padding, margin, and decoration.
 
-Please submit your completed assignment by **Tuesday, Sep 3, 2024, at 9:59 AM**.
+- **ElevatedButton**: The `ElevatedButton`  widget is used to create a button that elevates when pressed. It is commonly used for actions.
+
+- **InkWell**: The `InkWell`  widget is a material design ripple effect. It responds to touch by displaying a ripple animation. It is often used to wrap other widgets to make them interactive.
+
+
+### External Packages
+- **get_it**: Is a simple Service Locator for Dart and Flutter projects.
+
+- **get_storage**: A fast, extra light and synchronous key-value in memory, which backs up data to disk at each operation. It is written entirely in Dart and easily integrates with Get framework of Flutter.
+
+
+## Instructions for Running the App
+
+### Prerequisites
+- Flutter SDK
+
+### Running the App
+1. Clone the repository: 
+   ```bash
+   git clone https://github.com/Basel-75/national-day-assignment.git
+2. Navigate to the project directory: 
+   ```bash
+   cd national-day-assignment
+
+3. Install dependencies: 
+   ```bash
+   flutter pub get
+
+4. Run the app on an emulator or connected device: 
+   ```bash
+   flutter run
+
+
+## Output
+
+### Screenshot
+
+![alt text](assest/readme/home.png)
+![alt text](assest/readme/right.png)
+![alt text](assest/readme/wrong.png)
+![alt text](assest/readme/score.png)
+![alt text](assest/readme/badScore.png)
+
+
+### Demo GIF
+
+![assest/readme/quizGif.gif](assest/readme/quizGif.gif)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For more information, feel free to contact me via basel_1422@outlook.com or visit my GitHub profile @Basel-75.
